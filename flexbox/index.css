@@ -100,4 +100,12 @@
     padding: 12px;
     font-family: 'Lexend Deca', sans-serif;
     background-color: white;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
 }
